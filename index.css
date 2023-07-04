@@ -151,6 +151,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  object-fit: cover;
 }
 
 .menu_game_item_2 {
@@ -236,7 +237,7 @@ body {
     padding-right: 16px;
   }
   .top {
-    padding-left: 30px;
+    padding-left: 3px;
   }
   .title {
     width: 343px;
@@ -294,10 +295,10 @@ body {
   }
   .menu_game_item {
     min-height: 300px;
-    width: 343px;
+    width: 310px;
   }
   .menu_game {
-    padding-left: 16px;
+    padding-left: 3px;
   }
   .img_game_1 {
     width: 344px;
