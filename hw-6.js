@@ -74,6 +74,17 @@ let arrMy=[-1, 6, 8, -8];
 let result2=arrMy.filter(item=>item<0);
 console.log(result2);
 
+//Задание 14
+let randomsNumber= new Array(10)  ;
+let userNumbers ; 
+randomsNumber = randomsNumber.fill(0).map(() => Math.floor(Math.random() * 10));;
+for (item of randomsNumber) {
+    if (item%2==0) {
+        userNumbers=randomsNumber.map;
+    }
+    console.log(userNumbers);
+}
+
 //Задание 15
 const makeARandomNumber = function(){
      return Math.floor(Math.random() * 10);
