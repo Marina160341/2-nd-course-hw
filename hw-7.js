@@ -4,16 +4,20 @@ str=str.toUpperCase();
 console.log(str);
 
 //Задание 2
-function searchStart(word) {
-    searchStart.forEach(word => {
+let words = ['Кошка', 'Кит', 'Комар', 'Носорог'];
+function filterItems(query) {
+    return words.filter(function(el) {
+        return el.toLowerCase().indexOf(query.toLowerCase()) > -1;
+    })
+  }
+  
+  console.log(filterItems('ки')); 
+  console.log(filterItems('ко')); 
 
-        
-    });
-}
 //Задание 3
 let numberUser=32.58884;
 console.log(Math.floor(numberUser));
-console.log(Math.ceil(numberUser))
+console.log(Math.ceil(numberUser));
 console.log(Math.round(numberUser));
 
 //Задание 4
@@ -23,7 +27,7 @@ console.log(Math.min(52, 53, 49, 77, 21, 32));
 
 //Задание 5
 function randomNumber() {
-   return Math.round(Math.random()*10);
+   return Math.round(Math.random()*10)+1;
     }
 console.log(randomNumber());
 
